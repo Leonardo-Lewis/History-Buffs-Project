@@ -1128,6 +1128,7 @@ GameObject:
   - component: {fileID: 1527479990}
   - component: {fileID: 1527479989}
   - component: {fileID: 1527479988}
+  - component: {fileID: 1527479991}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1212,7 +1213,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1527479983}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1527479991}
   variables: []
   description: 
   stepPause: 0
@@ -1487,7 +1489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -129
+    x: -130
     y: 92.5
     width: 143
     height: 40
@@ -1497,7 +1499,8 @@ MonoBehaviour:
   blockName: Second Scene B
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1527479991}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479984
 MonoBehaviour:
@@ -1620,7 +1623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  text: Option Text
+  text: Return with the items to the merchant
   description: 
   targetBlock: {fileID: 1527479989}
   hideIfVisited: 0
@@ -1671,7 +1674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  text: Option Text
+  text: Take the chance and run away
   description: 
   targetBlock: {fileID: 1527479983}
   hideIfVisited: 0
@@ -1682,6 +1685,40 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1527479991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  storyText: 'You take your chance, running in a different direction. You''re not
+    sure where you''re running, but as long as you can get away from the merchant,
+    you''re happy.
+
+
+    As you run by, two armed men see you sprinting and give
+    chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken your
+    running away to mean yous tole something.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
