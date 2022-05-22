@@ -1700,13 +1700,16 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   storyText: 'You take your chance, running in a different direction. You''re not
-    sure where you''re running, but as long as you can get away from the merchant,
-    you''re happy.
+    sure where you''re running, but you think that as long as you can get away from
+    the merchant, you''ll be free.
 
 
-    As you run by, two armed men see you sprinting and give
-    chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken your
-    running away to mean yous tole something.'
+    As you run by, two armed men see you sprinting
+    and give chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken
+    your running away to mean you took something from a stall.
+
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
