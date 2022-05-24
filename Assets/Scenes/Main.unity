@@ -123,6 +123,78 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &49674432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49674433}
+  - component: {fileID: 49674435}
+  - component: {fileID: 49674434}
+  m_Layer: 5
+  m_Name: Pyramid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &49674433
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49674432}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.1446, y: 6.1446, z: 6.1446}
+  m_Children: []
+  m_Father: {fileID: 1199904354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -265.79}
+  m_SizeDelta: {x: 224.001, y: 108.78}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &49674434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49674432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: a3dc861ac54ecc54f99271288ce802ff, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &49674435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49674432}
+  m_CullTransparentMesh: 1
 --- !u!1 &105037339
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -582,6 +654,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 49674433}
   - {fileID: 1443229793}
   - {fileID: 2131037132}
   - {fileID: 1607053741}
@@ -1051,7 +1124,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1199904354}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1127,14 +1200,16 @@ GameObject:
   - component: {fileID: 1527479989}
   - component: {fileID: 1527479988}
   - component: {fileID: 1527479991}
-  - component: {fileID: 1527479993}
-  - component: {fileID: 1527479997}
   - component: {fileID: 1527479996}
-  - component: {fileID: 1527479995}
   - component: {fileID: 1527479994}
   - component: {fileID: 1527479992}
   - component: {fileID: 1527479980}
   - component: {fileID: 1527479977}
+  - component: {fileID: 1527479998}
+  - component: {fileID: 1527479997}
+  - component: {fileID: 1527479995}
+  - component: {fileID: 1527479993}
+  - component: {fileID: 1527479999}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1173,7 +1248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 39
     y: 19
-    width: 115.67161
+    width: 114.28569
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1204,19 +1279,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 316.05035, y: 59.8656}
+  scrollPos: {x: -64.757416, y: 138.68828}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.6700003
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1527479996}
+  selectedCommands:
+  - {fileID: 1527479999}
   variables: []
   description: 
   stepPause: 0
@@ -1256,7 +1333,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Egypt,  2563 BC
+  storyText: 'Egypt,  2563 BC
+
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -1404,7 +1484,8 @@ MonoBehaviour:
   itemId: 32
   indentLevel: 0
   storyText: The guards capture you. Seeing that you posess some wares, the guards
-    begin to take you away. As you are dragged harshly through town
+    begin to take you away. As you are dragged harshly through town, you see a failiar
+    figure heading towards you and teh guards. It's the merchant, who looks furious.
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -1501,21 +1582,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -130
-    y: 92.5
-    width: 145.52234
+    x: 389.96408
+    y: 66.69711
+    width: 145.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 16
-  blockName: Second Scene B
+  blockName: Second Scene C
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1527479991}
   - {fileID: 1527479993}
-  - {fileID: 1527479997}
-  - {fileID: 1527479995}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479984
 MonoBehaviour:
@@ -1533,7 +1612,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Take the chance to run away
   description: 
-  targetBlock: {fileID: 1527479983}
+  targetBlock: {fileID: 1527479998}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -1558,7 +1637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203
     y: 69.5
-    width: 145.52234
+    width: 145.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1665,7 +1744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.15463
     y: 134.43814
-    width: 130.59698
+    width: 131.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1755,7 +1834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'The guards capture but, seeing that you do not possess any merchandise,
+  storyText: 'The guards capture you but, seeing that you do not possess any merchandise,
     see no reason to arrest you and let you go. Using this chance, you run in the
     direction of the Nile, away from the shop as fast as possible.
 
@@ -1787,24 +1866,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527479970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
+  itemId: 37
   indentLevel: 0
-  storyText: Did you get the Merchant's items?
-  description: 
-  character: {fileID: 105037340}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1527479996}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1527479994
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1819,9 +1892,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -41.226948
-    y: 184.02112
-    width: 136.56712
+    x: -207.81905
+    y: 137.42145
+    width: 132.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1841,22 +1914,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527479970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 36
   indentLevel: 0
-  text: No i did not take the items
-  description: 
+  targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 1527479994}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1527479996
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1871,9 +1940,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -244.78056
-    y: 156.88892
-    width: 130.59698
+    x: 413.11655
+    y: 145.48993
+    width: 131.42853
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1883,6 +1952,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1527479980}
+  - {fileID: 1527479999}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479997
 MonoBehaviour:
@@ -1893,22 +1963,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527479970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 35
   indentLevel: 0
-  text: Yes, i did take the items
+  storyText: 'You take your chance, running in a different direction. You''re not
+    sure where you''re running, but you think that as long as you can get away from
+    the merchant, you''ll be free.
+
+
+    As you run by, two armed men see you sprinting
+    and give chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken
+    your running away to mean you took something from a stall.
+
+
+    As you try to
+    escape, the guards eventually catch up with you and you are detained.
+
+'
   description: 
-  targetBlock: {fileID: 1527479996}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 105037340}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527479998
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -136.66653
+    y: 54.05017
+    width: 145.71425
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 38
+  blockName: Second Scene B
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1527479997}
+  - {fileID: 1527479995}
+  suppressAllAutoSelections: 0
+--- !u!114 &1527479999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: 'What are you doing?! THAT''S MINE!
+
+    (The merchant continues to
+    yell at the guards for some time)
+
+
+    WHAT are you even doing with him?
+
+    (the
+    guards explain taht they had seen running and thought yuou stiole something.
+    Furious, the merchant yells some more at teh guards before grabbing you by the
+    shoulder and taking you away)'
+  description: 
+  character: {fileID: 1736990665}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +2092,7 @@ RectTransform:
   m_Children:
   - {fileID: 1406895294}
   m_Father: {fileID: 1199904354}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
@@ -2171,7 +2322,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1199904354}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
