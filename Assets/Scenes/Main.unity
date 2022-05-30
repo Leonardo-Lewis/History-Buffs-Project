@@ -2302,7 +2302,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1252980575}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1527480001
