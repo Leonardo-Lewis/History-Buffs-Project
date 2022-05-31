@@ -551,12 +551,94 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842995844}
   m_LocalRotation: {x: -0.70710707, y: -0, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 494, y: 335, z: -0}
+  m_LocalPosition: {x: 741, y: 461, z: -0}
   m_LocalScale: {x: 236.60254, y: 68.95621, z: 112.43999}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &871002607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871002609}
+  - component: {fileID: 871002608}
+  m_Layer: 0
+  m_Name: Ascii_Sphinx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &871002608
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871002607}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4a2ff526b417e7e4cb52ad0695e5c927, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 29.02, y: 15.82}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &871002609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871002607}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1331, y: 353, z: -21}
+  m_LocalScale: {x: 50, y: 50, z: 2.3121388}
+  m_Children: []
+  m_Father: {fileID: 1199904354}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919942101
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +717,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919942101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 585, y: 255, z: -530}
+  m_LocalPosition: {x: 918, y: 425, z: -825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -698,7 +780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188279028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1319, y: 400, z: 0}
+  m_LocalPosition: {x: 1319, y: 400, z: -34}
   m_LocalScale: {x: 50, y: 50, z: 2.3121388}
   m_Children: []
   m_Father: {fileID: 1199904354}
@@ -869,6 +951,7 @@ RectTransform:
   - {fileID: 1443229793}
   - {fileID: 1607053741}
   - {fileID: 1188279029}
+  - {fileID: 871002609}
   m_Father: {fileID: 1206654800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1339,7 +1422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.5, y: -38.369995}
+  m_AnchoredPosition: {x: 774, y: -48}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443229794
@@ -1427,6 +1510,11 @@ GameObject:
   - component: {fileID: 1527479975}
   - component: {fileID: 1527479971}
   - component: {fileID: 1527480003}
+  - component: {fileID: 1527480007}
+  - component: {fileID: 1527480006}
+  - component: {fileID: 1527480008}
+  - component: {fileID: 1527480009}
+  - component: {fileID: 1527480010}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1436,7 +1524,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1527479971
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1470,7 +1558,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.488197
     y: 19
-    width: 113.41462
+    width: 112.068924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1500,11 +1588,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 204.29822, y: 229.39377}
+  scrollPos: {x: 284.70657, y: 223.05511}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 521
-  zoom: 0.8200002
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1514,7 +1602,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1527480005}
   selectedCommands:
-  - {fileID: 1527480003}
+  - {fileID: 1527480008}
   variables: []
   description: 
   stepPause: 0
@@ -1542,7 +1630,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1527479975
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1796,7 +1884,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 389.96408
     y: 66.69711
-    width: 146.34145
+    width: 144.82751
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1849,7 +1937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203
     y: 69.5
-    width: 146.34145
+    width: 144.82751
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1956,7 +2044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.15463
     y: 134.43814
-    width: 130.4878
+    width: 131.03442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2051,12 +2139,17 @@ MonoBehaviour:
     direction of the Nile, away from the shop as fast as possible.
 
 
-    You are
-    unsure how you will survive out in the desert, with little to eat, but you will
-    try to ruin free.
+    As you are
+    running, you swear you can see the shape of the Sphinx in the distance. Perhaps
+    that will be your destination.
 
 
-    --You have reached the Escape ending--'
+    You are unsure how you will survive out
+    in the desert, with little to eat, but you will try to run free.
+
+
+    --You
+    have reached the Escape ending--'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2106,7 +2199,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -204.37076
     y: 135.69731
-    width: 134.14633
+    width: 131.03442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2115,6 +2208,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1527480009}
+  - {fileID: 1527480010}
   - {fileID: 1527479992}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479995
@@ -2154,7 +2249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.11655
     y: 146.52086
-    width: 130.4878
+    width: 131.03442
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2167,6 +2262,8 @@ MonoBehaviour:
   - {fileID: 1527479999}
   - {fileID: 1527480002}
   - {fileID: 1527480001}
+  - {fileID: 1527480007}
+  - {fileID: 1527480006}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479997
 MonoBehaviour:
@@ -2224,7 +2321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -136.66653
     y: 54.05017
-    width: 146.34145
+    width: 144.82751
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2281,7 +2378,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1527480000
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2320,7 +2417,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: 'Ah! You must be the new slave. Welcome. Rest assured, your '
+  storyText: 'Ah! You must be the new slave. Your room is over there down the right
+    corridor. You will be sharing with the other slaves.
+
+
+    Now, follow me. I
+    have a job for you. Let us walk and talk, shall we?
+
+
+    Your first job for
+    me shall be as my personal taste tester. I''m in need of a new taster since my
+    previous one helped prevent my death. '
   description: 
   character: {fileID: 1724185314}
   portrait: {fileID: 0}
@@ -2380,7 +2487,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1527480003
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2427,7 +2534,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.35269
     y: -48.89421
-    width: 74.39024
+    width: 74.13792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2436,11 +2543,134 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1527480004}
   commandList:
+  - {fileID: 1527480008}
   - {fileID: 1527480000}
   - {fileID: 1527480003}
   - {fileID: 1527479971}
   - {fileID: 1527479975}
   suppressAllAutoSelections: 0
+--- !u!114 &1527480006
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  storyText: 'You have entered the dining room by following the rrich man. He sits
+    at the head of the table, and motions to a cup which contains a very small amount
+    of wine, indicating for you to take a sip. '
+  description: 
+  character: {fileID: 105037340}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480007
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: In Ancient Egypt, the wealthier classes would use slaves and servants
+    to test their food and drink to see if it was poisoned. This was a dangerous
+    job, as any day could potentially be the tester's last.
+  description: 
+  character: {fileID: 105037340}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480008
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  spriteRenderer: {fileID: 871002608}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &1527480009
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  spriteRenderer: {fileID: 871002608}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &1527480010
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  spriteRenderer: {fileID: 871002608}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 0
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,8 +2707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 16.75, y: 105.38205}
-  m_SizeDelta: {x: -33.5, y: 119.504}
+  m_AnchoredPosition: {x: 4.6905518, y: 105.38205}
+  m_SizeDelta: {x: -430.1189, y: 119.504}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607053742
 MonoBehaviour:
