@@ -1515,6 +1515,17 @@ GameObject:
   - component: {fileID: 1527480008}
   - component: {fileID: 1527480009}
   - component: {fileID: 1527480010}
+  - component: {fileID: 1527480013}
+  - component: {fileID: 1527480012}
+  - component: {fileID: 1527480011}
+  - component: {fileID: 1527480021}
+  - component: {fileID: 1527480020}
+  - component: {fileID: 1527480019}
+  - component: {fileID: 1527480018}
+  - component: {fileID: 1527480017}
+  - component: {fileID: 1527480016}
+  - component: {fileID: 1527480015}
+  - component: {fileID: 1527480014}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1558,7 +1569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.488197
     y: 19
-    width: 112.068924
+    width: 117.30763
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1588,21 +1599,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 284.70657, y: 223.05511}
+  scrollPos: {x: 599.1122, y: 128.07938}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 521
-  zoom: 0.5800004
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1527480005}
-  selectedCommands:
-  - {fileID: 1527480008}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1884,7 +1893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 389.96408
     y: 66.69711
-    width: 144.82751
+    width: 151.92299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1937,7 +1946,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203
     y: 69.5
-    width: 144.82751
+    width: 149.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2044,7 +2053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.15463
     y: 134.43814
-    width: 131.03442
+    width: 134.61531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2197,9 +2206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -204.37076
-    y: 135.69731
-    width: 131.03442
+    x: -204.37074
+    y: 176.08199
+    width: 140.38454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2249,7 +2258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.11655
     y: 146.52086
-    width: 131.03442
+    width: 134.61531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2264,6 +2273,8 @@ MonoBehaviour:
   - {fileID: 1527480001}
   - {fileID: 1527480007}
   - {fileID: 1527480006}
+  - {fileID: 1527480013}
+  - {fileID: 1527480021}
   suppressAllAutoSelections: 0
 --- !u!114 &1527479997
 MonoBehaviour:
@@ -2321,7 +2332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -136.66653
     y: 54.05017
-    width: 144.82751
+    width: 149.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2534,7 +2545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.35269
     y: -48.89421
-    width: 74.13792
+    width: 76.92305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2565,7 +2576,12 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You have entered the dining room by following the rrich man. He sits
     at the head of the table, and motions to a cup which contains a very small amount
-    of wine, indicating for you to take a sip. '
+    of wine, indicating for you to take a sip. It very well could be poisoned
+
+
+    You
+    realize there is a way out of this, but you must decide for yourself if you want
+    to take taht risk'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2592,9 +2608,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: In Ancient Egypt, the wealthier classes would use slaves and servants
-    to test their food and drink to see if it was poisoned. This was a dangerous
-    job, as any day could potentially be the tester's last.
+  storyText: "In many ancient societies, such as Rome or Egypt, the wealthier classes
+    would use slaves and servants to test their food and drink to see if it was poisoned.
+    This was a dangerous job, as any day could potentially be the taster's last.
+    \n\nFood tasters were mainly employed by the ruling nobility of a given nation,
+    such as the Pharoah of Egypt, but wealthy figures who had enemies, such as the
+    rich man in this story, would alsoemploy them."
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2671,6 +2690,318 @@ MonoBehaviour:
   waitUntilFinished: 0
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1527480011
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 292.3147
+    y: 231.941
+    width: 130.76917
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 56
+  blockName: Fourth Scene
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1527480020}
+  - {fileID: 1527480019}
+  - {fileID: 1527480017}
+  - {fileID: 1527480015}
+  suppressAllAutoSelections: 0
+--- !u!114 &1527480012
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 554.9481
+    y: 249.35837
+    width: 155.76913
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 55
+  blockName: Execution Ending
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1527480013
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  text: Kill the rich man
+  description: 
+  targetBlock: {fileID: 1527480012}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1527480014
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 106.65649
+    y: 275.76666
+    width: 157.69221
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 64
+  blockName: Attempted escape
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1527480015
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  text: Don't go to the rich man and try to escape
+  description: 
+  targetBlock: {fileID: 1527480014}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1527480016
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  storyText: 'You decide to test the food. Surely it would be just klike the last
+    few days, right?
+
+
+    The food was poisoned. You star to feel light in the head,
+    and that slowly turns into a burning sensation all throughout your body. You
+    collapse. The last thing you see is the rich man, staring over you, with a frown
+    on his face.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480017
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  text: Attack the rich man
+  description: 
+  targetBlock: {fileID: 1527480012}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1527480018
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 284.60022
+    y: 338.4037
+    width: 151.92299
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 60
+  blockName: Poisoned ending
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1527480016}
+  suppressAllAutoSelections: 0
+--- !u!114 &1527480019
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  text: Taste the food
+  description: 
+  targetBlock: {fileID: 1527480018}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1527480020
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: 'You taste the wine. It is fresh, and sweet. The rich man looks at you,
+    with an expression of expectation. You feel fine. The food, as it turns out,
+    is not poisoned.
+
+
+    The rich man has his meal, and then tells you to go rest.
+    he will call you when he has his next meal.
+
+
+    The next few days you spend
+    repeating this. Every meal, you are summoned by the rich man, told to taste a
+    bit of his wine or food, and then told to leave.
+
+
+    It''s the 5th day of your
+    new life. You are being summoned by the rich man yet again. You herad some whisp[ers
+    from the other slaves about someone sneaking into the kitchen an hour prior.
+    You have a choice here.'
+  description: 
+  character: {fileID: 105037340}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480021
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  text: Taste the drink
+  description: 
+  targetBlock: {fileID: 1527480011}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
