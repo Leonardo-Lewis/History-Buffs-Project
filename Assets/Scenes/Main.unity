@@ -1526,6 +1526,10 @@ GameObject:
   - component: {fileID: 1527480016}
   - component: {fileID: 1527480015}
   - component: {fileID: 1527480014}
+  - component: {fileID: 1527480022}
+  - component: {fileID: 1527480023}
+  - component: {fileID: 1527480024}
+  - component: {fileID: 1527480025}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2716,6 +2720,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1527480020}
+  - {fileID: 1527480024}
+  - {fileID: 1527480025}
   - {fileID: 1527480019}
   - {fileID: 1527480017}
   - {fileID: 1527480015}
@@ -2744,7 +2750,8 @@ MonoBehaviour:
   blockName: Execution Ending
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1527480023}
   suppressAllAutoSelections: 0
 --- !u!114 &1527480013
 MonoBehaviour:
@@ -2843,7 +2850,10 @@ MonoBehaviour:
     The food was poisoned. You star to feel light in the head,
     and that slowly turns into a burning sensation all throughout your body. You
     collapse. The last thing you see is the rich man, staring over you, with a frown
-    on his face.'
+    on his face.
+
+
+    --You have reached the Poison ending--'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2907,6 +2917,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1527480016}
+  - {fileID: 1527480022}
   suppressAllAutoSelections: 0
 --- !u!114 &1527480019
 MonoBehaviour:
@@ -2956,15 +2967,7 @@ MonoBehaviour:
     he will call you when he has his next meal.
 
 
-    The next few days you spend
-    repeating this. Every meal, you are summoned by the rich man, told to taste a
-    bit of his wine or food, and then told to leave.
-
-
-    It''s the 5th day of your
-    new life. You are being summoned by the rich man yet again. You herad some whisp[ers
-    from the other slaves about someone sneaking into the kitchen an hour prior.
-    You have a choice here.'
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3002,6 +3005,112 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1527480022
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Start
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1527480023
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480024
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  storyText: 'The next few days you spend repeating this. Every meal, you are summoned
+    by the rich man, told to taste a bit of his wine or food, and then told to leave.
+
+
+'
+  description: 
+  character: {fileID: 105037340}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1527480025
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: It's the 5th day. You are being summoned by the rich man yet again.
+    You herad some whisp[ers from the other slaves about someone sneaking into the
+    kitchen an hour prior. You have a choice here.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
