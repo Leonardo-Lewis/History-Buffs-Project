@@ -1633,6 +1633,7 @@ GameObject:
   - component: {fileID: 1527480045}
   - component: {fileID: 1527480044}
   - component: {fileID: 1527480043}
+  - component: {fileID: 1527480046}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1676,7 +1677,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.488197
     y: 19
-    width: 113.636314
+    width: 117.30763
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1706,11 +1707,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 238.94576, y: 124.75691}
+  scrollPos: {x: 949.55475, y: 117.55408}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 521
-  zoom: 0.5500004
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1718,8 +1719,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1527480014}
-  selectedCommands: []
+  - {fileID: 1527480034}
+  selectedCommands:
+  - {fileID: 1527480046}
   variables: []
   description: 
   stepPause: 0
@@ -1808,10 +1810,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: You return to the store, to find that your master, the Merchant, needs
+  storyText: 'You return to the store, to find that your master, the Merchant, needs
     you to help work the shop. Whilst he is selling his wares to his customers, you
-    are organizing the shop, cleaning the products and making sure the wares are
-    as quality as possible
+    are to organize the shop, cleaning the products and making sure the wares are
+    as quality as possible '
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -1869,11 +1871,14 @@ MonoBehaviour:
   itemId: 5
   indentLevel: 0
   storyText: 'Go there, tell them I sent you, then come back here and manage the
-    shop. That''s your job today. Do you understand?
+    shop. That is your job today. Do you understand?
 
+    
 
-    Do not forget the your
-    place, unless you want to return to a life of debt?'
+    Do not forget your
+    place, unless you want to return to a life of debt?
+
+'
   description: 
   character: {fileID: 1736990665}
   portrait: {fileID: 0}
@@ -1929,7 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: 'Awake I see. Welp, time for you to get to work. I need you to go and
+  storyText: 'Awake I see. Well, time for you to get to work. I need you to go and
     collect some items for the store.
 
 
@@ -1961,18 +1966,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: 'You decide to do as you were told and head to the store.
-
-
-    You
-    walk through the sandy streets towards the rushing water of the Nile river. As
+  storyText: "\rYou decide to do as you were told and head to the store.\r\n\r\nYou
+    walk through the sandy streets towards the rushing water of the Nile River. As
     you go down this way that you have walked so many times in the past, you come
-    to a marketplace. Amidst the hubbub here is a stall seling fish.
-
-
-    You approach
-    the stall and tell them who sent you. They give you a package. You walk back
-    out. No one is looking at you. You have another choice'
+    to a marketplace. Amidst the hubbub here is a stall selling fish.\r\n\r\nYou
+    approach the stall and tell them who sent you. They give you a package. You walk
+    back out. No one is looking at you. You have another choice\r\n"
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2001,7 +2000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.33395
     y: 65.32725
-    width: 146.36356
+    width: 151.92299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2054,7 +2053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.99997
     y: 48.952065
-    width: 144.54538
+    width: 149.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2161,7 +2160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.15463
     y: 134.43814
-    width: 129.99994
+    width: 134.61531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2216,17 +2215,19 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   storyText: 'You take your chance, running in a different direction. You''re not
-    sure where you''re running, but you think that as long as you can get away from
-    the merchant, you''ll be free.
+    sure where you''re running, but you think that if you can get away from the merchant,
+    you''ll be free.
 
+    
 
     As you run by, two armed men see you sprinting
-    and give chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken
-    your running away to mean you took something from a stall.
+    and give chase. "Thief! That''s a thief! Stop them!" they cry. They appear to
+    have mistaken your running away to mean you took something from a stall.
 
+    
 
-    As you try to
-    escape, the guards eventually catch up with you and you are detained.
+    As
+    you try to escape, the guards eventually catch up with you and you are detained.
 
 '
   description: 
@@ -2314,7 +2315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -203.00089
     y: 174.71213
-    width: 135.45447
+    width: 140.38454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2365,7 +2366,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 413.11655
     y: 146.52086
-    width: 129.99994
+    width: 134.61531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2398,17 +2399,19 @@ MonoBehaviour:
   itemId: 35
   indentLevel: 0
   storyText: 'You take your chance, running in a different direction. You''re not
-    sure where you''re running, but you think that as long as you can get away from
-    the merchant, you''ll be free.
+    sure where you''re running, but you think that if you can get away from the merchant,
+    you''ll be free.
 
+    
 
     As you run by, two armed men see you sprinting
-    and give chase. "Theif! That''s a theif! Stop them!" They appear to have mistaken
-    your running away to mean you took something from a stall.
+    and give chase. "Thief! That''s a thief! Stop them!" they cry. They appear to
+    have mistaken your running away to mean you took something from a stall.
 
+    
 
-    As you try to
-    escape, the guards eventually catch up with you and you are detained.
+    As
+    you try to escape, the guards eventually catch up with you and you are detained.
 
 '
   description: 
@@ -2437,9 +2440,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -113.37886
-    y: 78.70771
-    width: 144.54538
+    x: -162.46976
+    y: 47.79857
+    width: 149.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2471,18 +2474,22 @@ MonoBehaviour:
     (The merchant continues to
     yell at the guards for some time)
 
+    
 
     WHAT are you even doing with him?
 
-    (the
-    guards explain that they had seen running and thought yuou stole something. Furious,
+    (The
+    guards explain that they had seen running and thought you stole something. Furious,
     the merchant yells some more at the guards before grabbing you by the shoulder
     and taking you away)
 
+    
 
-    I see you''re just going to be trouble. If you want
-    to escape so badly, well, FINE. I''ll just sell yopu off to the highest bidder.
-    Get ready to grab your things.'
+    I see you''re just going to be trouble. If
+    you want to escape so badly, well, FINE. I''ll just sell you off to the highest
+    bidder. Get ready to grab your things.
+
+'
   description: 
   character: {fileID: 1736990665}
   portrait: {fileID: 0}
@@ -2577,21 +2584,26 @@ MonoBehaviour:
     in a large stone mansion farther west of the Nile. You are transported there
     by a cart with guards.
 
+    
 
-    You enter through the front of the mansion and the
-    guards tell you to wait there while one of them fetches your new master.
+    You enter through the front of the mansion
+    and the guards tell you to wait there while one of them fetches your new master.
 
+    
 
     The
     mansion''s interior was elaborate, the furniture adorned with intricate patterns
     of white on the red stone. The reed furniture seemed particularly comfortable,
     though you were not allowed to sit so you could not say for certain.
 
+    
 
     A
-    small amount of time passses before a man dressed in many jewels with a beige
-    kilt at his weist, and golden bands around his arms, enters from a door at the
-    opposite end of the room.'
+    small amount of time passes before a man dressed in many jewels with a beige
+    kilt at his waist, and golden bands around his arms, enters from a door at the
+    opposite end of the room.
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2653,7 +2665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.35269
     y: -48.89421
-    width: 75.45453
+    width: 76.92305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2683,14 +2695,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: 'You have entered the dining room by following the rrich man. He sits
+  storyText: 'You have entered the dining room by following the rich man. He sits
     at the head of the table, and motions to a cup which contains a very small amount
     of wine, indicating for you to take a sip. It very well could be poisoned
 
+    
 
     You
     realize there is a way out of this, but you must decide for yourself if you want
-    to take taht risk'
+    to take that risk
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2720,9 +2735,9 @@ MonoBehaviour:
   storyText: "In many ancient societies, such as Rome or Egypt, the wealthier classes
     would use slaves and servants to test their food and drink to see if it was poisoned.
     This was a dangerous job, as any day could potentially be the taster's last.
-    \n\nFood tasters were mainly employed by the ruling nobility of a given nation,
+    \r\n\r\nFood tasters were mainly employed by the ruling nobility of a given nation,
     such as the Pharoah of Egypt, but wealthy figures who had enemies, such as the
-    rich man in this story, would alsoemploy them."
+    rich man in this story, would also employ them.\r\n"
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -2815,7 +2830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.4243
     y: 231.941
-    width: 139.09085
+    width: 144.23068
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2847,7 +2862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.9481
     y: 249.35837
-    width: 149.99992
+    width: 155.76913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2900,7 +2915,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.601685
     y: 348.36978
-    width: 153.63629
+    width: 157.69221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2951,17 +2966,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: 'You decide to test the food. Surely it would be just klike the last
+  storyText: 'You decide to test the food. Surely it would be just like the last
     few days, right?
 
+    
 
-    The food was poisoned. You start to feel light in the
-    head, and that slowly turns into a burning sensation all throughout your body.
-    You collapse. The last thing you see is the rich man, staring over you, with
-    a frown on his face.
+    The food was poisoned. You start to feel light
+    in the head, and that slowly turns into a burning sensation all throughout your
+    body. You collapse. The last thing you see is the rich man, staring over you,
+    with an unconcerned frown on his face.
 
+    
 
-    --You have reached the Poison ending--'
+    --You have reached the Poison
+    ending--
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3013,9 +3033,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 284.60022
+    x: 286.5233
     y: 338.4037
-    width: 146.36356
+    width: 151.92299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3071,9 +3091,10 @@ MonoBehaviour:
     with an expression of expectation. You feel fine. The food, as it turns out,
     is not poisoned.
 
+    
 
-    The rich man has his meal, and then tells you to go rest.
-    he will call you when he has his next meal.
+    The rich man has his meal, and then tells you to
+    go rest. He will call you when he has his next meal.
 
 
 '
@@ -3147,13 +3168,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: 'You were seen  killing the rich man. As per the law of Ancient Eguypt,
+  storyText: 'You were seen killing the rich man. As per the laws of Ancient Egypt,
     this offense is deemed punishable by death. You are thrust into a pit, where
     a group of onlookers toss stones at you until you die.
 
+    
 
-    --You have reached
-    the Execution ending--'
+    --You have
+    reached the Execution ending--
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3318,8 +3342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: When no one is looking, begin to try and sneak away from the dining
-    room. You reach the door, and make a mad dash towards the open desert.
+  storyText: When no one is looking, you begin to try and sneak away from the dining
+    room. You reach the front door and make a mad dash towards the open desert.
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3398,9 +3422,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: A customer walks in. A wealthy looking man. He asks for some sandals
-    made of papyrus. The merchant seems busy counting money, so you grab the sandals
-    yourself and give them to him. You end up selling the man the shoes all by yourself.
+  storyText: 'A customer walks in. A wealthy looking man. He asks for some sandals
+    made of papyrus. The merchant seems busy counting money and has barely noticed
+    the man, so you grab the sandals yourself and give them to him. You end up selling
+    the man the shoes all by yourself. '
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3429,18 +3454,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.05409
     y: 217.06105
-    width: 188.18172
+    width: 173.07681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 81
-  blockName: Earned Freedom ending
+  blockName: Bought Land ending
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1527480045}
   - {fileID: 1527480044}
   - {fileID: 1527480043}
+  - {fileID: 1527480046}
   suppressAllAutoSelections: 0
 --- !u!114 &1527480035
 MonoBehaviour:
@@ -3483,7 +3509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.945988
     y: 151.6065
-    width: 189.9999
+    width: 196.15372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3536,8 +3562,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: You hand the mercfhant the money you earned from selling the man the
-    shoes. He appears shocked, and impressed. He wants you to continue selling items
+  storyText: You hand the merchant the money you earned from selling the man the
+    shoes. He appears shocked and impressed. He wants you to continue selling items
     in his stead from now on. 2 ideas come to your mind. You have a choice here
   description: 
   character: {fileID: 105037340}
@@ -3566,12 +3592,15 @@ MonoBehaviour:
   itemId: 84
   indentLevel: 0
   storyText: 'As per the deal, the Merchant agrees to give you freedom, and offers
-    you a job in his shop. You accept,a nd live your life in much greater comfort,
+    you a job in his shop. You accept, and live your life in much greater comfort,
     free of the confines of slavery.
 
+    
 
-    --You have reached the Granted Freedom
-    ending--'
+    --You have reached the Granted
+    Freedom ending--
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3598,9 +3627,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: You slave tirelessly throughout the week. Haggling with customers, encouraging
+  storyText: 'You work tirelessly throughout the week. Haggling with customers, encouraging
     them to buy more things, and overall being aggressively polite in negotiating
-    purchases. You end up more than doubling weekly profits.
+    purchases. You end up more than doubling weekly profits. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3628,7 +3657,7 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   storyText: 'You make a deal with the Merchant: If you can make twice as much gold
-    as the merchant usually makes, he will grant you your freedom.'
+    as the merchant usually makes in a week, he will grant you your freedom.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3662,7 +3691,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1527480043
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3674,13 +3703,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: 'You may not be free, but at the very least you can live your dasys
-    in some more relative comfort. One day, you hope to be granted your freedom again,
+  storyText: 'You may not be free, but at the very least you can live your days in
+    some more relative comfort. One day, you hope to be granted your freedom again,
     but until then you take solace in owning your own roof again.
 
+    
 
-    --You have
-    reached the Bought Land ending--'
+    --You
+    have reached the Bought Land ending--
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3695,7 +3727,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1527480044
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3707,9 +3739,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: 'In Ancient Egypt, slaves were not prohibited from owning property,
-    such as land. With the money you have saved. Using your hard-snuck funds, you
-    manage to pay for a small property along the Nile River. '
+  storyText: In Ancient Egypt, slaves were not prohibited from owning property, such
+    as land. Using your hard-snuck funds, you manage to pay for a small property
+    along the Nile River.
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3724,7 +3756,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1527480045
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3737,12 +3769,15 @@ MonoBehaviour:
   itemId: 86
   indentLevel: 0
   storyText: 'You decide that, while you will handle the Merchant''s shop, you plan
-    to sneak a few coins here and there for yourself. You act dicreet, only ever
+    to sneak a few coins here and there for yourself. You act discreet, only ever
     hiding the odd coin here or there, storing it in a purse in your room.
 
+    
 
     This
-    goes on for several months until eventually you have enough for your needs.'
+    goes on for several months until eventually you have enough for your plan.
+
+'
   description: 
   character: {fileID: 105037340}
   portrait: {fileID: 0}
@@ -3755,6 +3790,25 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1527480046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527479970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Start
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1607053740
 GameObject:
   m_ObjectHideFlags: 0
